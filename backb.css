@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(img/backb.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-image: linear-gradient(to top, #09084b 0%, #5a55ae 13%, #7b5fac 25%, #a86aa4 50%, #cc6b8e 62%, #dc71f1 75%, #5a0572 87%, #33093c 100%);
+
+    opacity: 0.5;
+}
+
